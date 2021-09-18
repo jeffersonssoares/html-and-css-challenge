@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mediaqueries.css">
     <title>Document</title>
 </head>
 
@@ -28,128 +29,217 @@
         <span class="cut"></span>
     </header>
 
-    <main class="main">
-        <h1>
-            Ajude o algorítimo a ser mais certeiro
-        </h1>
+    <div class="body">
+        <div class="main-form">
+            <main class="main">
+                <div>
+                    <h1>
+                        Ajude o algorítimo a ser mais certeiro
+                    </h1>
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta
-            convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium
-            consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus
-            vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non
-            felis tristique eleifend.
-        </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi
+                        porta
+                        convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper
+                        pretium
+                        consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut
+                        tellus
+                        vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad
+                        litora
+                        torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu
+                        non
+                        felis tristique eleifend.
+                    </p>
 
-        <p>
-            Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem
-            ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque
-            mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet
-            nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel
-            metus.
-        </p>
-    </main>
+                    <p>
+                        Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis
+                        lorem
+                        ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque
+                        ut
+                        neque
+                        mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit
+                        amet
+                        nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue
+                        est
+                        vel
+                        metus.
+                    </p>
+            </main>
 
-    <form class="formulario" action="#" method="GET">
-        <div class="form">
-            <label class="label" for="seu-nome">Seu nome:</label>
-            <input class="box-form" type="text" id="seu-nome">
+            <form class="formulario" action="#" method="GET">
+                <div class="form">
+                    <label class="label" for="seu-nome">Seu nome:</label>
+                    <input class="box-form" type="text" id="seu-nome">
 
-            <label class="label" for="e-mail">E-mail:</label>
-            <input class="box-form" type="email" id="e-mail">
+                    <label class="label" for="e-mail">E-mail:</label>
+                    <input class="box-form" type="email" id="e-mail">
 
-            <label class="label" for="cpf">CPF:</label>
-            <input class="box-form" type="number" id="cpf">
+                    <label class="label" for="cpf">CPF:</label>
+                    <input class="box-form" type="number" id="cpf">
+                </div>
+
+                <div class="form2">
+                    <input type="radio" name="sexo" value="M">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" value="F">
+                    <label for="">Fermino</label>
+
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
+        <section>
+            <fieldset>
+                <legend><strong>Sua seleção especial</strong></legend>
+            </fieldset>
 
-        <div class="form2">
-            <input type="radio" name="sexo" value="M">
-            <label for="">Masculino</label>
-            <input type="radio" name="sexo" value="F">
-            <label for="">Fermino</label>
+            <div class="selecao-box">
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
 
-            <input class="btn-enviar" type="submit" value="Enviar">
-        </div>
-    </form>
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
 
-    <section>
-        <fieldset>
-            <legend><strong>Sua seleção especial</strong></legend>
-        </fieldset>
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
 
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
 
-        <div class="produtos">
-            <span class="box-produto"></span>
-            <div class="compra">
-                <p class="nome-produto">Nome do produto</p>
-                <p class="de-ou">De: R$23,99</p>
-                <p class="por"><strong>Por: R$19,99</strong></p>
-                <p class="de-ou">ou 2x R$9,99</p>
-                <button class="btn-comprar">Comprar</button>
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
+
+                <div class="produtos">
+                    <span class="box-produto"></span>
+                    <div class="compra">
+                        <p class="nome-produto">Nome do produto</p>
+                        <p class="de-ou">De: R$23,99</p>
+                        <p class="por"><strong>Por: R$19,99</strong></p>
+                        <p class="de-ou">ou 2x R$9,99</p>
+                        <button class="btn-comprar">Comprar</button>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="produtos">
-            <span class="box-produto"></span>
-            <div class="compra">
-                <p class="nome-produto">Nome do produto</p>
-                <p class="de-ou">De: R$23,99</p>
-                <p class="por"><strong>Por: R$19,99</strong></p>
-                <p class="de-ou">ou 2x R$9,99</p>
-                <button class="btn-comprar">Comprar</button>
+            <div class="maisprodutos">
+                <button class="btn-maisprodutos">Ainda mais produtos aqui!</button>
             </div>
-        </div>
+        </section>
 
-        <div class="produtos">
-            <span class="box-produto"></span>
-            <div class="compra">
-                <p class="nome-produto">Nome do produto</p>
-                <p class="de-ou">De: R$23,99</p>
-                <p class="por"><strong>Por: R$19,99</strong></p>
-                <p class="de-ou">ou 2x R$9,99</p>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
+        <section>
+            <fieldset>
+                <legend><strong>Compartilhe a novidade</strong></legend>
+            </fieldset>
 
-        <div class="produtos">
-            <span class="box-produto"></span>
-            <div class="compra">
-                <p class="nome-produto">Nome do produto</p>
-                <p class="de-ou">De: R$23,99</p>
-                <p class="por"><strong>Por: R$19,99</strong></p>
-                <p class="de-ou">ou 2x R$9,99</p>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
+            <p class="lista-personalizada">
+                Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
+            </p>
 
-        <div class="maisprodutos">
-            <button class="btn-maisprodutos">Ainda mais produtos aqui!</button>
-        </div>
-    </section>
+            <form class="formulario" action="#" method="GET">
+                <div class="form form-footer">
+                    <label class="label" for="seu-nome">Nome do seu amigo:</label>
+                    <input class="box-form" type="text" id="seu-nome">
+                </div>
 
-    <section>
-        <fieldset>
-            <legend><strong>Compartilhe a novidade</strong></legend>
-        </fieldset>
+                <div class="form form-footer">
+                    <label class="label" for="e-mail">E-mail dele:</label>
+                    <input class="box-form" type="email" id="e-mail">
+                </div>
+                <div class="enviar-agora">
+                    <input class="btn-enviar-agora" type="submit" value="Enviar agora">
+                </div>
+            </form>
 
-        <p class="lista-personalizada">
-            Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
-        </p>
+            <!--
 
-        <form class="formulario" action="#" method="GET">
-            <div class="form">
-                <label class="label" for="seu-nome">Nome do seu amigo:</label>
-                <input class="box-form" type="text" id="seu-nome">
+                <form class="formulario" action="#" method="GET">
+                <div class="form">
+                    <label class="label" for="seu-nome">Seu nome:</label>
+                    <input class="box-form" type="text" id="seu-nome">
 
-                <label class="label" for="e-mail">E-mail dele:</label>
-                <input class="box-form" type="email" id="e-mail">
-            </div>
-            <div class="enviar-agora">
-                <input class="btn-enviar-agora" type="submit" value="Enviar agora">
-            </div>
-        </form>
-    </section>
+                    <label class="label" for="e-mail">E-mail:</label>
+                    <input class="box-form" type="email" id="e-mail">
+
+                    <label class="label" for="cpf">CPF:</label>
+                    <input class="box-form" type="number" id="cpf">
+                </div>
+
+                <div class="form2">
+                    <input type="radio" name="sexo" value="M">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" value="F">
+                    <label for="">Fermino</label>
+
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </div>
+            </form>
+
+-->
+
+
+        </section>
+    </div>
     <footer class="footer">
         <span class="cut-footer"></span>
         <p>
