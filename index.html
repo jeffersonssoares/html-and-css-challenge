@@ -11,25 +11,24 @@
 </head>
 
 <body>
-    <header>
-        <p>
-            uma seleção de produtos <br>
-            <strong>especial para você</strong>
-        </p>
-        <p>
-            Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!
+    <header class="header">
+        <p class="header-txt">uma seleção de produtos</p>
+        <p class="header-txt-strong"><strong>especial para você</strong></p>
+        <p class="header-txt2">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!
         </p>
 
         <nav>
-            <ul>
+            <ul class="header-nav">
                 <li><a href="#">Conheça a Linx</a></li>
                 <li><a href="#">Ajude o algorítimo</a></li>
                 <li><a href="#">Seus produtos</a></li>
                 <li><a href="#">Compartilhe</a></li>
             </ul>
         </nav>
+        <span class="cut"></span>
     </header>
-    <main>
+
+    <main class="main">
         <h1>
             Ajude o algorítimo a ser mais certeiro
         </h1>
@@ -52,81 +51,107 @@
         </p>
     </main>
 
-    <form action="#" method="GET">
+    <form class="formulario" action="#" method="GET">
+        <div class="form">
+            <label class="label" for="seu-nome">Seu nome:</label>
+            <input class="box-form" type="text" id="seu-nome">
 
-        <label for="seu-nome">Seu nome:</label>
-        <input type="text" id="seu-nome">
+            <label class="label" for="e-mail">E-mail:</label>
+            <input class="box-form" type="email" id="e-mail">
 
+            <label class="label" for="cpf">CPF:</label>
+            <input class="box-form" type="number" id="cpf">
+        </div>
 
-        <label for="e-mail">E-mail:</label>
-        <input type="email" id="e-mail">
+        <div class="form2">
+            <input type="radio" name="sexo" value="M">
+            <label for="">Masculino</label>
+            <input type="radio" name="sexo" value="F">
+            <label for="">Fermino</label>
 
-
-        <label for="cpf">CPF:</label>
-        <input type="number" id="cpf">
-
-        <input type="radio" name="sexo" value="M">
-        <label for="">Masculino</label>
-        <input type="radio" name="sexo" value="F">
-        <label for="">Fermino</label>
-
-        <input type="submit" value="Enviar">
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </div>
     </form>
 
     <section>
-        <h2>Sua seleção especial</h2>
+        <fieldset>
+            <legend><strong>Sua seleção especial</strong></legend>
+        </fieldset>
 
-        <div>
-            <p>Nome do produto</p>
-            <p>De: R$23,99</p>
-            <p><strong>Por: R$19,99</strong></p>
-            <p>ou 2x R$9,99</p>
-            <button>Comprar</button>
+
+        <div class="produtos">
+            <span class="box-produto"></span>
+            <div class="compra">
+                <p class="nome-produto">Nome do produto</p>
+                <p class="de-ou">De: R$23,99</p>
+                <p class="por"><strong>Por: R$19,99</strong></p>
+                <p class="de-ou">ou 2x R$9,99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
         </div>
 
-        <div>
-            <p>Nome do produto</p>
-            <p>De: R$23,99</p>
-            <p><strong>Por: R$19,99</strong></p>
-            <p>ou 2x R$9,99</p>
-            <button>Comprar</button>
+        <div class="produtos">
+            <span class="box-produto"></span>
+            <div class="compra">
+                <p class="nome-produto">Nome do produto</p>
+                <p class="de-ou">De: R$23,99</p>
+                <p class="por"><strong>Por: R$19,99</strong></p>
+                <p class="de-ou">ou 2x R$9,99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
         </div>
 
-        <div>
-            <p>Nome do produto</p>
-            <p>De: R$23,99</p>
-            <p><strong>Por: R$19,99</strong></p>
-            <p>ou 2x R$9,99</p>
-            <button>Comprar</button>
+        <div class="produtos">
+            <span class="box-produto"></span>
+            <div class="compra">
+                <p class="nome-produto">Nome do produto</p>
+                <p class="de-ou">De: R$23,99</p>
+                <p class="por"><strong>Por: R$19,99</strong></p>
+                <p class="de-ou">ou 2x R$9,99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
         </div>
 
-        <div>
-            <p>Nome do produto</p>
-            <p>De: R$23,99</p>
-            <p><strong>Por: R$19,99</strong></p>
-            <p>ou 2x R$9,99</p>
-            <button>Comprar</button>
+        <div class="produtos">
+            <span class="box-produto"></span>
+            <div class="compra">
+                <p class="nome-produto">Nome do produto</p>
+                <p class="de-ou">De: R$23,99</p>
+                <p class="por"><strong>Por: R$19,99</strong></p>
+                <p class="de-ou">ou 2x R$9,99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
         </div>
 
-        <button>Ainda mais produtos aqui!</button>
+        <div class="maisprodutos">
+            <button class="btn-maisprodutos">Ainda mais produtos aqui!</button>
+        </div>
     </section>
 
     <section>
-        <h2>Compartilhe a novidade</h2>
+        <fieldset>
+            <legend><strong>Compartilhe a novidade</strong></legend>
+        </fieldset>
 
-        <p>
+        <p class="lista-personalizada">
             Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
         </p>
 
-        <form action="">
-            <label for="">Nome do seu amigo:</label>
-            <input type="text">
+        <form class="formulario" action="#" method="GET">
+            <div class="form">
+                <label class="label" for="seu-nome">Nome do seu amigo:</label>
+                <input class="box-form" type="text" id="seu-nome">
 
-            <label for="">E-mail dele:</label>
-            <input type="email" name="" id="">
+                <label class="label" for="e-mail">E-mail dele:</label>
+                <input class="box-form" type="email" id="e-mail">
+            </div>
+            <div class="enviar-agora">
+                <input class="btn-enviar-agora" type="submit" value="Enviar agora">
+            </div>
         </form>
     </section>
-    <footer>
+    <footer class="footer">
+        <span class="cut-footer"></span>
         <p>
             Testando suas habilidades em HTML, CSS e JS. Linx Impulse 2019
         </p>

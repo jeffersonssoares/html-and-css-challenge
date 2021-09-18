@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background-color: #707070;
+    width: 100%;
+    min-height: 25em;
+    position: relative;
+}
+.cut {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 20vh solid #707070;
+    border-left: 100vw solid #FFF;
+}
+
+.header-txt {
+    font-size: 1.25em;
+    padding: 4.12em 0em 0em 1em;
+    text-align: left;
+    color: #FFF;
+}
+
+.header-txt-strong {
+    padding: .3em 0em 0em 1em;
+    color: #FFF;
+}
+
+.header-txt2 {
+    padding: .3em 0em 0em 1em;
+    color: #FFF;
+    font-size: 0.875em;
+}
+
+.header strong {
+    font-size: 2.5em;
+}
+
+.header-txt2 {
+    font-size: 0.87em;
+}
+
+.header li {
+    border: 2px solid #707070;
+    background-color: #FFF;
+    border-radius: .5em;
+    width: 9em;
+    height: 1.40em;
+    padding: .5em;
+    z-index: 1;
+    text-align: center;
+    margin: .4em;
+}
+
+.header-nav {
+    padding: 3em 0 3em 0em;
+    height: 6.9em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.header a {
+    color: #888888;
+    font-size: 0.87em;
+}
+
+.main h1 {
+    font-size: 1.25em;
+    color: #888888;
+    padding: 3em 0em 0em 1em;
+    font-weight: normal;
+}
+
+.main p{
+    font-size: 0.75em;
+    color: #888888;
+    padding: 1em 1em;
+}
+
+.formulario {
+    
+    color: #888888;
+}
+
+.form {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.form2 {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.box-form{
+    width: 24em;
+    height: 1.85em;
+}
+
+.label {
+    margin: 1em 0 .5em;
+    font-size: 0.87em;
+}
+
+.form2 input, label {
+    margin: .3em;
+}
+
+.btn-enviar {
+    width: 24em;
+    height: 2.5em;
+    border-radius: .5em;
+    background-color: #FFF;
+    color: #888888;
+}
+
+fieldset {
+    border-top: 1px solid #707070;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+
+}
+
+fieldset legend {
+    padding: 5px 10px;
+    color: #888888;
+    font-size: 1.12em;
+}
+
+.nome-produto {
+    font-size: 0.87em;
+    color: #888888;
+    padding: .3em;
+}
+
+.de-ou {
+    font-size: 0.75em;
+    color: #888888;
+    padding: .3em;
+}
+
+.por {
+    font-size: 1em;
+    color: #888888;
+    padding: .3em;
+}
+
+.btn-comprar {
+    width: 12.5em;
+    height: 1.87em;
+    border-radius: .5em;
+    color: #888888;
+    background-color: #FFF;
+}
+
+.btn-maisprodutos {
+    margin: 3em 0 6em 0;
+    width: 16em;
+    height: 2.4em;
+    background-color: #FFF;
+    border-color: #707070;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maisprodutos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-produto {
+    border: 1px solid black;
+    color: #707070;
+    padding: 4em 5em;
+}
+
+.compra {
+    padding: 1em;
+}
+
+.lista-personalizada {
+    font-size: 0.87em;
+    color: #888888;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.form-compartilhe {
+    display: flex;
+}
+
+.enviar-agora {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn-enviar-agora{
+    margin: 2.5em;
+    width: 16em;
+    height: 2.5em;
+    border-radius: .5em;
+    background-color: #FFF;
+    color: #888888;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 0.75em;
+    color: #FFFFFF;
+    padding: 8em;
+    text-align: center;
+
+}
+
+.footer {
+    background-color: #707070;
+    width: 100%;
+    min-height: 10em;
+    position: absolute;
+}
+
+.cut-footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-bottom: 7vh solid #707070;
+    border-left: 100vw solid #FFF;
+}
