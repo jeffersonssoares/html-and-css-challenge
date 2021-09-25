@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+.body {
+    padding: 0 1em;
+}
+
 .header {
     background-color: #707070;
     width: 100%;
@@ -107,7 +111,7 @@
 }
 
 .box-form{
-    width: 24em;
+    width: 100%;
     height: 1.85em;
 }
 
@@ -121,7 +125,7 @@
 }
 
 .btn-enviar {
-    width: 24em;
+    width: 100%;
     height: 2.5em;
     border-radius: .5em;
     background-color: #FFF;
@@ -189,10 +193,12 @@ fieldset legend {
 .produtos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
-
+.produtos-none {
+    display: none;
+}
 .box-produto {
     border: 1px solid black;
     color: #707070;
