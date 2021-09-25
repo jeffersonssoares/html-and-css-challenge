@@ -127,9 +127,10 @@
 .btn-enviar {
     width: 100%;
     height: 2.5em;
-    border-radius: .5em;
+    border-radius: .3em;
     background-color: #FFF;
     color: #888888;
+    border: .1em solid #707070;
 }
 
 fieldset {
@@ -168,21 +169,23 @@ fieldset legend {
 .btn-comprar {
     width: 12.5em;
     height: 1.87em;
-    border-radius: .5em;
+    border-radius: .3em;
     color: #888888;
     background-color: #FFF;
+    border: .1em solid #707070;
 }
 
 .btn-maisprodutos {
     margin: 3em 0 6em 0;
     width: 16em;
     height: 2.4em;
+    border-radius: .3em;
     background-color: #FFF;
-    border-color: #707070;
     color: #888888;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: .1em solid #707070;
 }
 
 .maisprodutos {
@@ -200,8 +203,7 @@ fieldset legend {
     display: none;
 }
 .box-produto {
-    border: 1px solid black;
-    color: #707070;
+    border: .1em solid #707070;
     padding: 4em 5em;
 }
 
@@ -231,11 +233,12 @@ fieldset legend {
     width: 16em;
     height: 2.5em;
     border-radius: .5em;
-    background-color: #FFF;
     color: #888888;
+    background-color: #FFF;
     text-align: center;
     display: flex;
     justify-content: center;
+    border: .1em solid #707070;
 }
 
 .footer p {
